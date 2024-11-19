@@ -7,7 +7,7 @@ ROMFS_DIR = $(ROOTDIR)/romfs
 include $(BOARD_CONFIG)
 
 PROJECT_HOME_URL="https:\/\/github.com\/hanwckf\/padavan-4.4\/"
-PROJECT_HOME_URL_MOD="https:\/\/github.com\/TurBoTse\/padavan\/"
+PROJECT_HOME_URL_MOD="https:\/\/github.com\/xiaobei207\/padavan-4.4-2\/"
 
 LABEL_COPYRIGHT_TEXT="© 2011-`date +'%Y'` Padavan \& N56U Project Community \, Compilation Time: `TZ='Asia/Shanghai' date +'%Y.%m.%d %H:%M:%S'`"
 
