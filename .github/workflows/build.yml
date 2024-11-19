@@ -1,12 +1,17 @@
 name: build
 
 on:
+  release:
+    types: [published]
   push:
-    branches:
-    - "*"
-  workflow_dispatch:
-    watch:
+    tags:
+      - 'v*'
+  watch:
     types: [started]
+#  push:
+#    branches:
+#    - "*"
+#  workflow_dispatch:
 
 jobs:
   build:
